@@ -1,0 +1,100 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--header-bg);
+    position: relative;
+  }
+  
+  .headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  .username,
+  .themeLabel {
+    color: var(--text-color);
+  }
+  
+  .username {
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--heading-color);
+    margin-right: 20px; /* Add space between username and theme switch */
+  }
+  
+  .popup {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background: var(--popup-bg);
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logoutButton {
+    background: var(--button-bg);
+    color: var(--heading-color);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Additional Styles for Proper Alignment and Spacing */
+  .userWrapper {
+    position: relative;
+  }
+  
+  .username {
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--heading-color);
+  }
+  
+  .popup {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background: var(--popup-bg);
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logoutButton {
+    background: var(--button-bg);
+    color: var(--heading-color);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signInButton {
+    background-color: #48494b;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .signInButton:hover {
+    background-color: #0056b3;
+  }
+  
